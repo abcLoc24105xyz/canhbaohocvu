@@ -1,5 +1,5 @@
 streamlit
 pandas
 numpy
-scikit-learn==X.X.X
-lightgbm==X.X.X
+scikit-learn==1.7.2
+lightgbm==4.3.0
