@@ -5,9 +5,7 @@ import pandas as pd
 # Load model
 model = pickle.load(open("academic_warning_model.pkl", "rb"))
 
-st.title( "HỆ THỐNG DỰ ĐOÁN CẢNH BÁO HỌC VỤ")
-
-st.markdown("Nhập thông tin sinh viên để dự đoán trạng thái học tập.")
+st.title( "Hệ thống cảnh báo học vụ")
 
 # ===== INPUT (HIỂN THỊ TIẾNG VIỆT) =====
 
@@ -58,3 +56,4 @@ if st.button("🔍 Dự đoán"):
     }
 
     st.success(f"Kết quả dự đoán: {label_map[prediction]}")
+
